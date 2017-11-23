@@ -28,7 +28,7 @@ var Zendesk = require('zendeskapi');
 #### How using password 
 ```
 var zenclient = new Zendesk({
-    url: 'https://{youer_subdomain}.zendesk.com',
+    url: 'https://{your_subdomain}.zendesk.com',
     user: '{email_address}',
     pass: '{password}',
 });
@@ -37,7 +37,7 @@ var zenclient = new Zendesk({
 #### How using token 
 ```
 var zenclient = new Zendesk({
-    url: 'https://{youer_subdomain}.zendesk.com',
+    url: 'https://{your_subdomain}.zendesk.com',
     user: '{email_address}/token',
     pass: '{token}',
 });
