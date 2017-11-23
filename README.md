@@ -1,12 +1,9 @@
 # zendeskapi 
-Using zendesk Core API 
+Please read https://developer.zendesk.com/rest_api/docs/core/  
 
 
 ## NOTE 
-
-Please read https://developer.zendesk.com/rest_api/docs/core/  
-For example, "List Tickets" is `GET /api/v2/tickets.json` . 
-You can use "tickets.json" here. But it's not perfect.
+It's not perfect.
 
 
 ## Getting Started
