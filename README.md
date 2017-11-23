@@ -10,7 +10,7 @@ It's not perfect.
 
 
 
-### npm install 
+### Install 
 ```
 npm install zendeskapi 
 ```
