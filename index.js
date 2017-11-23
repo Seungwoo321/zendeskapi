@@ -2,7 +2,7 @@ var request = require('request');
 var API_VERSION = 'v2';
 
 
-function Zendesk(config) {
+function zendeskapi(config) {
     this.init = function () {
         this.config = config;
     };
@@ -56,4 +56,4 @@ function Zendesk(config) {
 
 }
 
-module.exports = Zendesk;
+module.exports = zendeskapi;
