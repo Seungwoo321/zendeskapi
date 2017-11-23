@@ -31,7 +31,7 @@ function Zendesk(config) {
         return new Promise(function (resolve, reject) {
             client.get(options, function (err, httpResponse, body) {
                 if (err) reject(err);
-                else(JSON.parse(body).error ? reject(resultObj.error) : resolve(resultObj));
+                else(JSON.parse(body).error ? reject(JSON.parse(body).error) : resolve(JSON.parse(body)));
             });
         });
     };
@@ -48,7 +48,7 @@ function Zendesk(config) {
         return new Promise(function (resolve, reject) {
             client.post(options, function (err, httpResponse, body) {
                 if (err) reject(err);
-                else(JSON.parse(body).error ? reject(resultObj.error) : resolve(resultObj));
+                else(JSON.parse(body).error ? reject(JSON.parse(body).error) : resolve(JSON.parse(body)));
             });
         });
     };
