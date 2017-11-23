@@ -12,12 +12,9 @@ var Zendesk = require('zendeskapi');
 
 ```
 var zenclient = new Zendesk({
-    /* 'https://your-host.zendesk.com' */
-    url: 'url',
-    /* 'your-host@email.com/token' */
-    user: 'user',
-    /* 'token from zendesk'*/
-    pass: 'password',
+    url: 'https://your-host.zendesk.com',
+    user: 'your emailt/token or your email',
+    pass: 'token or password',
 });
 ```
 
