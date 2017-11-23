@@ -1,0 +1,22 @@
+{
+  "name": "zendeskapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seungwoo321/zendeskapi.git"
+  },
+  "author": "Seungwoo321",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Seungwoo321/zendeskapi/issues"
+  },
+  "homepage": "https://github.com/Seungwoo321/zendeskapi#readme",
+  "dependencies": {
+    "request": "^2.83.0"
+  }
+}
