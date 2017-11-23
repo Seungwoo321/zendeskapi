@@ -17,14 +17,14 @@ npm install zendeskapi
 
 ### Import module
 ```
-var zendeskapi = require('zendeskapi');
+var ZENDESK_API = require('zendeskapi');
 ```
 
 ### Client
 
 #### How using password
 ```
-var zenclient = new zendeskapi({
+var zenclient = new ZENDESK_API({
     url: 'https://{your_subdomain}.zendesk.com',
     user: '{email_address}',
     pass: '{password}',
@@ -33,7 +33,7 @@ var zenclient = new zendeskapi({
 
 #### How using token
 ```
-var zenclient = new zendeskapi({
+var zenclient = new ZENDESK_API({
     url: 'https://{your_subdomain}.zendesk.com',
     user: '{email_address}/token',
     pass: '{token}',
