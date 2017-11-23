@@ -1,14 +1,14 @@
 # zendeskapi
 
 
-= module import 
+module import 
 
 ```
 var Zendesk = require('zendeskapi');
 ```
 
 
-= config set 
+config set 
 
 ```
 var zenclient = new Zendesk({
@@ -19,7 +19,7 @@ var zenclient = new Zendesk({
 ```
 
 
-= example code 
+example code 
 
 ```
 // get brands
