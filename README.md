@@ -1,4 +1,5 @@
-# zendeskapi - Use zendesk Core API 
+# zendeskapi 
+Using zendesk Core API 
 
 
 ## NOTE 
@@ -24,7 +25,7 @@ var Zendesk = require('zendeskapi');
 
 ### Client 
 
-#### how using password 
+#### How using password 
 ```
 var zenclient = new Zendesk({
     url: 'https://{youer_subdomain}.zendesk.com',
@@ -33,7 +34,7 @@ var zenclient = new Zendesk({
 });
 ```
 
-#### how using token 
+#### How using token 
 ```
 var zenclient = new Zendesk({
     url: 'https://{youer_subdomain}.zendesk.com',
@@ -44,9 +45,9 @@ var zenclient = new Zendesk({
 
 
 ### Example 
-
+* List Brands - Please see  https://developer.zendesk.com/rest_api/docs/core/brands 
 ```
-// List Brands - Please see  https://developer.zendesk.com/rest_api/docs/core/brands 
+// get brands 
 zenclient.get('brands.json').then(function (result) {
     console.log(result);
 }).catch(function (err) {
